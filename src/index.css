@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.fetch-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.fetch-button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.fetch-button:hover {
+  background-color: #555555;
+  color: white;
+}
+.title1{
+  color : #25282b;
+  font-size : 21px;
+  font-style: Roboto-Large;
+  padding: 14px;  
+}
+.line{
+  fill: #E8E8E8;
+  size: 1px;
+}
+.author{
+  text-align: left;
+  padding-left : 16px;
+  padding-top: 16px;
+  color: #52575C;
+  font-style: Roboto-Regular;
+  font-size: 12px; 
+}
+.name{
+  text-align: left;
+  padding-top: 6px;
+  padding-left : 16px;
+  padding-bottom: 16px;
+  color: #52575C;
+  font-style: Roboto-Large;
+  font-size: 15px;  
+}
+.description{
+  text-align: left;
+  color : #52575C;
+  padding-left : 16px;
+  font-style: PingFangSC-Regular;
+  padding-right: 16px;
+  font-size: 12px;
+  padding-bottom: 8px;
+
+}
+
+.repo{
+  fill: #ffffff;
+  box-shadow : outer;
+  display: inline;
+}
+
+img{
+  width: 16px;
+  height: 16px;
+  padding: 4px;
+}
+.bottomline{
+  align-items: center;
+  display: flex; 
+  text-align: left;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  font-size: 12px;
+  font-style: Roboto-Regular;
+}
+.repoimage1{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  display: inline ;
+}
